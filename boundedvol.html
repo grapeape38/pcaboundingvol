@@ -1,0 +1,31 @@
+<html>
+		<head>
+            <meta charset="UTF-8">
+            <style>
+                button {
+                    display:block;
+                }
+            </style>
+<!-- Plotly.js -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+		</head>
+		<body>
+        <!-- Plotly chart will be drawn inside this DIV -->
+        <div id="main" style="width:100%;height:100%">
+            <div id="controls">
+                <select id="plotSelect" onchange="plotPoints()">
+                    <option value="random">Random Points</option>
+                    <option value="car">Lamborghini</option>
+                    <option value="cat">Cat</option>
+                    <option value="house">House</option>
+                </select>
+                <!--<button onClick="plotPoints()">Plot Points</button>-->
+                <label>Draw Bounding Box Around Points</label>
+                <input type="checkbox" onchange="toggleBox()" id ="showEigen"/>
+            </div>
+            <div id="myDiv"></div>
+        </div>
+        <script src = "pointdata.js"></script>
+        <script src="boundedvol.js"></script>
+        </body>
+</html>
