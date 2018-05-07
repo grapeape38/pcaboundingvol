@@ -2,4 +2,4 @@
 Hi, this was for my Numerical Linear Algebra class, it showcases doing various linear algebra computations in javascript such as iterative methods for eigenvalues and drawing boxes around points. The full description is in the pdf included in the repository.
 
 # Running It
-Just download the .html and two .js files and open boundedvol.html using your browser of choice. That should do it.
+Just download the repostiroy and open boundedvol.html using your browser of choice. That should do it.
